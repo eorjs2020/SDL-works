@@ -1,0 +1,12 @@
+﻿  Game.cpp
+D:\FirstPlayable-master\FirstPlayable-master\Working SDL Game1\SDL_Template32\Game.cpp(16,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\FirstPlayable-master\FirstPlayable-master\Working SDL Game1\SDL_Template32\Game.cpp(23,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\FirstPlayable-master\FirstPlayable-master\Working SDL Game1\SDL_Template32\Game.cpp(28,47): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\FirstPlayable-master\FirstPlayable-master\Working SDL Game1\SDL_Template32\Game.cpp(35,64): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\FirstPlayable-master\FirstPlayable-master\Working SDL Game1\SDL_Template32\Game.cpp(155,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\FirstPlayable-master\FirstPlayable-master\Working SDL Game1\SDL_Template32\Game.cpp(156,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\FirstPlayable-master\FirstPlayable-master\Working SDL Game1\SDL_Template32\Game.cpp(181,25): warning C4018: '<': signed/unsigned mismatch
+  Main.cpp
+  Sprite.cpp
+  Generating Code...
+  SDL_Template32.vcxproj -> D:\FirstPlayable-master\FirstPlayable-master\Working SDL Game1\Debug\SDL_Template32.exe
