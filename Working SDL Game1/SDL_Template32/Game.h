@@ -37,6 +37,7 @@ private:
 public:
 	Sprite ship;
 	Sprite projectile;
+	Sprite background;
 	
 	Game();
 	Game(const char* windowName, int windowSizeX, int windowSizeY);

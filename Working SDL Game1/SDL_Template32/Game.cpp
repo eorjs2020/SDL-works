@@ -72,7 +72,8 @@ void Game::run()
 	ship.setPosition(384, 568);
 	projectile = Sprite(pRenderer, "Can_1.png", 140, 140);
 	projectile.setPosition(0, 0);
-	background =Sprite(pRenderer, "background.png", )
+	background = Sprite(pRenderer, "background.png", 800, 600);
+	background.setPosition(0, 0);
 
 
 
@@ -150,11 +151,11 @@ void Game::update()
 {
 	
 	checkBounds();
-	projectile.velX = sin(gameTime) * 100;
+	/*projectile.velX = sin(gameTime) * 100;
 	projectile.velY = sin(gameTime) * 100;
 
 	projectile.dst.x = projectile.dst.x + projectile.velX * deltaTime;
-	projectile.dst.y = projectile.dst.y + projectile.velY * deltaTime;
+	projectile.dst.y = projectile.dst.y + projectile.velY * deltaTime;*/
 
 	//ship.setPosition(400, sin((float)SDL_GetTicks() / 1000.f) * 200 + 200);
 	//projectile.setSize(sin(gameTime * 100) + 100, sin(gameTime) * 100 + 100);
@@ -168,7 +169,7 @@ void Game::draw()
 {
 	SDL_SetRenderDrawColor(pRenderer, 0, 0, 255, 0);
 	SDL_RenderClear(pRenderer);
-	
+	background.draw(pRenderer);
 	ship.draw(pRenderer);
 	projectile.draw(pRenderer);
 	SDL_RenderPresent(pRenderer);
