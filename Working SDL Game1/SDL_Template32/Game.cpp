@@ -69,7 +69,8 @@ Game::~Game()
 void Game::run()
 {
 	ship = Sprite(pRenderer, "Seagull_Wizard_1.png", 32, 32);
-	ship.setPosition(384, 568);
+	//ship.setPosition(384, 568);
+	ship.setPosition(400, sin((float)SDL_GetTicks() / 1000.f) * 200 + 200);
 	projectile = Sprite(pRenderer, "Can_1.png", 140, 140);
 	projectile.setPosition(0, 0);
 	background = Sprite(pRenderer, "background.png", 800, 600);
@@ -151,6 +152,18 @@ void Game::update()
 {
 	
 	checkBounds();
+		if (ship.isCollidingWith(projectile))
+		{
+			std::cout << "collision" << std::endl;
+				ship.setPosition(-100,-100);
+		}
+
+		if (gameTime > 120)
+		{
+			quit();
+		}
+	
+
 	/*projectile.velX = sin(gameTime) * 100;
 	projectile.velY = sin(gameTime) * 100;
 
@@ -161,9 +174,9 @@ void Game::update()
 	//projectile.setSize(sin(gameTime * 100) + 100, sin(gameTime) * 100 + 100);
 
 	// automatically quit after 30 seconds just as an example to show Qame.quit()
+}	
 	
-	
-}
+
 
 void Game::draw()
 {

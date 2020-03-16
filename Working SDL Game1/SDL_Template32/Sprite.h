@@ -3,6 +3,8 @@
 
 // Sprite class which contains a texture, position, velocity, size, and functions for drawing it.
 
+int distanceSq(int x1, int y1, int x2, int y2);
+
 class Sprite
 {
 private:
@@ -29,6 +31,9 @@ public:
 	
 	void setSize(int x, int y);
 	void draw(SDL_Renderer* renderer);
+
+	bool isCollidingWith(const Sprite& other);
+	bool isCollidingCircular(const Sprite& other);
 
 	void cleanup();
 };

@@ -1,7 +1,1 @@
-﻿  Game.cpp
-C:\Users\ldk20\Desktop\Working SDL Game1\SDL_Template32\Game.cpp(16,24): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\ldk20\Desktop\Working SDL Game1\SDL_Template32\Game.cpp(23,41): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\ldk20\Desktop\Working SDL Game1\SDL_Template32\Game.cpp(28,47): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\ldk20\Desktop\Working SDL Game1\SDL_Template32\Game.cpp(35,64): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\ldk20\Desktop\Working SDL Game1\SDL_Template32\Game.cpp(183,25): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  SDL_Template32.vcxproj -> C:\Users\ldk20\Desktop\Working SDL Game1\Debug\SDL_Template32.exe
+﻿  SDL_Template32.vcxproj -> C:\Users\ldk20\Desktop\새 폴더\SDL-works-master (2)\SDL-works-master\Working SDL Game1\Debug\SDL_Template32.exe
